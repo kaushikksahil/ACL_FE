@@ -1,0 +1,181 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000053;
+  padding: 0 2rem;
+}
+
+.main-header h1 {
+  color: white;
+}
+.card {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  position: inherit;
+}
+
+.view-card {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  position: inherit;
+  margin: 2rem;
+}
+
+.add-prod-card {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.c-row {
+  padding: 10rem 2rem;
+}
+
+.c-label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-sub-btn {
+  width: 18%;
+  font-size: 1.2em;
+  background-color: #000053;
+  font-weight: 600;
+  color: #ffffff;
+  border-color: #000053;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-form {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.product-card-form {
+  width: 50%;
+  max-width: 22rem;
+  padding: 2rem;
+}
+
+.product-a-card-form {
+  padding: 1rem;
+  background-color: #bfc1c3;
+}
+
+.font-product-a {
+  margin-top: 0.2rem;
+  float: right;
+}
+
+.font-product-a-p {
+  margin-top: 0.6rem;
+  float: right;
+  width: 13%;
+}
+
+.font-product-v-p {
+  margin-top: 0.6rem;
+  float: right;
+  width: 100%;
+}
+
+.c-p {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #000053;
+}
+
+.del-prod {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.c-h5 {
+  padding-bottom: 2rem;
+}
+
+.c-actn-row {
+  padding: 1rem 1rem;
+}
+
+.c-btn {
+  background-color: #f8f9fa;
+  border-color: #000053;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #000053;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #000053;
+  border-color: #000053;
+}
+
+.c-prdct-btn {
+  padding: 1rem;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.add-prod-modal {
+  position: fixed;
+  top: 2vh;
+  left: 37%;
+  width: 23%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.1rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.prd-card-show-lb {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000053;
+}
+
+.prd-card-show-txt {
+  float: right;
+  color: #46484a;
+  font-weight: 400;
+}
+
+.list-group-item {
+  position: inherit;
+  display: block;
+  padding: 0.1rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+}
